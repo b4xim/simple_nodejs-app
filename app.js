@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
     <!DOCTYPE html>
     <html>
     <head>
-      <title>DevOps Dashboard</title>
+      <title>Bladeoski Dashboard</title>
       <style>
         body { font-family: Arial, sans-serif; background: #0f172a; color: #e2e8f0; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
         .card { background: #1e293b; padding: 2rem; border-radius: 12px; text-align: center; box-shadow: 0 4px 20px rgba(0,0,0,0.4); }
@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
     </head>
     <body>
       <div class="card">
-        <h1>🚀 DevOps Dashboard</h1>
+        <h1>🚀 Bladeoski Dashboard</h1>
         <p>Running inside a Docker container on AWS EC2</p>
         <div>
           <span class="badge">Docker</span>
